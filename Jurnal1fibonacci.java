@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Praktikum
  */
-public class Jurnal1 {
+public class Jurnal1fibonacci {
 
     /**
      * @param args the command line arguments
