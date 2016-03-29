@@ -23,6 +23,7 @@ public class Jurnal1fibonacci {
         bil[0]=0;
         bil[1]=1;       
         int deret;
+        int jumlah=0;
        
         Scanner input = new Scanner (System.in);
         System.out.print("Masukan jumlah deret : ");
@@ -30,8 +31,10 @@ public class Jurnal1fibonacci {
         deret = Integer.parseInt(data);
        
         for(int i=0;i<deret;i++){
-            System.out.print(bil[i]+" ");
+            
             bil[i+2]=bil[i]+bil[i+1];
+            jumlah += bil[i];
         }
+        System.out.println(jumlah);
     }
 }
